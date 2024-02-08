@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+h2{
+    color: rgb(210, 126, 16);
+}
+
+
+header p {
+    margin: 5px 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+
+     border-radius:  5px 5px 10px 10px; 
+     box-shadow: 0 4px 8px black;
+     transition: 1s;
+}
+img:hover{
+    box-shadow: 0 8px 16px goldenrod;
+}
+
+
+
+.about-me, .projects, .contact {
+    padding: 40px 0;
+}
+
+.about-me h2, .projects h2, .contact h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+#cont{
+    color: rgb(62, 92, 3);
+}
+div h2{
+    text-decoration: underline;
+}
